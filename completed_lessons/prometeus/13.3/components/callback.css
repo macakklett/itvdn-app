@@ -1,0 +1,9 @@
+.callback__buttons {
+  margin-top: 8px;
+}
+
+.callback__button-year,
+.callback__button-number,
+.callback__button-seacret-number {
+  margin: 8px 16px;
+}

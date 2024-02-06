@@ -1,0 +1,77 @@
+.App {
+  font-family: sans-serif;
+}
+
+.bookshelf__container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1em 0;
+}
+
+.bookshelf__container > * {
+  margin: 0 0.5em 0.5em 0;
+}
+
+.book {
+  border: 1px solid #eee;
+  border-radius: 0.25em;
+  width: 12em;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  max-height: 20em;
+}
+
+.book__cover {
+  object-fit: cover;
+  height: 70%;
+}
+
+.book__summary {
+  padding: 0.5em 0.5em;
+  background-color: #e8f8e6;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.book__title {
+  font-weight: 600;
+}
+
+.book__year {
+  font-size: 0.875em;
+  color: #606060;
+}
+
+.book__summary :first-child {
+  width: 100%;
+}
+
+.book__actions {
+  display: flex;
+}
+
+.book__actions > * {
+  flex: 1;
+}
+
+.book__actions > :first-child {
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.book__actions button {
+  background-color: #91d895;
+  border: none;
+  padding: 0.75em 0.5em;
+  font-size: 0.875em;
+  color: #155018;
+  cursor: pointer;
+}
+
+.book__actions button:hover {
+  background-color: #9ce79f;
+  color: #1b7a1f;
+}

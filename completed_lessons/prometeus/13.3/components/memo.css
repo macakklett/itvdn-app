@@ -1,0 +1,8 @@
+.memo__buttons {
+  margin-top: 8px;
+}
+
+.memo__button-year,
+.memo__button-number {
+  margin: 8px 16px;
+}
